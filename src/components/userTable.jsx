@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import TableHead from "./common/tableHead";
 import TableBody from "./common/tableBody";
 import paginate from "./../utils/paginate";

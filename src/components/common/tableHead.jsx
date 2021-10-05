@@ -15,7 +15,7 @@ const TableHead = ({ columns ,sortColumn ,onSetSortColumn,sortrequired}) => {
       const renderSortingIncon=(column)=>
       {
             if(sortrequired) return null;
-            if(column.path != sortColumn.path) return null;
+            if(column.path !== sortColumn.path) return null;
             if(sortColumn.order ==='asc')return   <span><i className="fa fa-sort-asc"></i></span>;
             else return <span><i className="fa fa-sort-desc"></i></span>;
       }

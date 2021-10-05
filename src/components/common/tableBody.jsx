@@ -22,7 +22,7 @@ const renderCell = (column, allItems, itemId) => {
   else if (column.path === "name")
     return (
       <td key={`${itemId}${column.path}`}>
-        <Link to={`itemForm/${itemId}`}>
+        <Link to={`userForm/${itemId}`}>
           {_.get(allItems[itemId], column.path)}
         </Link>
       </td>
