@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { selectUsersList } from "../store/userReducer";
 import Pagination from "./common/pagination";
-import _ from "lodash";
 import ListGroup from "./common/listGroup";
 import styled from "styled-components";
 import UserTable from "./userTable";

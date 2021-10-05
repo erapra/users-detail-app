@@ -17,7 +17,7 @@ const CustomizedTable = (props) => {
         checked={sortrequired}
         onChange={onSortRequired}
       />
-      <label htmlFor="sortCheck">&nbsp;&nbsp;Sortable</label>
+      <label htmlFor="sortCheck">&nbsp;&nbsp;Draggable</label>
     </div>
     <div className="col-md-3">
       <SearchBox value={queryString} onChange={onChanges} />
