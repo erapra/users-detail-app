@@ -54,6 +54,10 @@ const UserList = (props) => {
       setDisplayCount(userList.length);
       setCurrentPage(1);
     } else setDisplayCount(4);
+
+    setSelectedGender(genderList[0]);
+    setQueryString("");
+
   };
 
   // if (userCount === 0) return null;
